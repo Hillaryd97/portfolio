@@ -1,7 +1,7 @@
-import { AiFillHtml5 } from "react-icons/ai";
-import { FaReact, FaBootstrap, FaFigma } from "react-icons/fa";
-import { DiCss3, DiJavascript1, DiSqllite } from "react-icons/di";
-import { SiPhp, SiSupabase, SiTailwindcss } from "react-icons/si";
+// import { AiFillHtml5 } from "react-icons/ai";
+// import { FaReact, FaBootstrap, FaFigma } from "react-icons/fa";
+// import { DiCss3, DiJavascript1, DiSqllite } from "react-icons/di";
+// import { SiPhp, SiSupabase, SiTailwindcss } from "react-icons/si";
 
 const About = () => {
   return (
@@ -16,43 +16,43 @@ const About = () => {
       <p className="text-light-gray text-xl font-bold py-4">Technologies I work with: </p>
       <div className="text-white grid grid-cols-4 gap-4 lg:gap-5 lg:grid-cols-4">
         <div className="flex items-center space-x-1 p-2 w-fit bg-dark-blue">
-          <AiFillHtml5 size={30} />
+          {/* <AiFillHtml5 size={30} /> */}
           <p>HTML</p>
         </div>{" "}
         <div className="flex items-center space-x-1 p-2 w-fit bg-dark-blue">
-          <DiCss3 size={30} />
+          {/* <DiCss3 size={30} /> */}
           <p>CSS</p>
         </div>{" "}
         <div className="flex items-center space-x-1 p-2 w-fit bg-dark-blue">
-          <DiJavascript1 size={30} />
+          {/* <DiJavascript1 size={30} /> */}
           <p>JavaScript</p>
         </div>{" "}
         <div className="flex items-center space-x-1 p-2 w-fit bg-dark-blue">
-          <SiPhp size={30} />
+          {/* <SiPhp size={30} /> */}
           <p>PHP</p>
         </div>{" "}
         <div className="flex items-center space-x-1 p-2 w-fit bg-dark-blue">
-          <SiTailwindcss size={30} />
+          {/* <SiTailwindcss size={30} /> */}
           <p>Tailwind</p>
         </div>{" "}
         <div className="flex items-center space-x-1 p-2 w-fit bg-dark-blue">
-          <FaReact size={30} />
+          {/* <FaReact size={30} /> */}
           <p>React.js</p>
         </div>
         <div className="flex items-center space-x-1 p-2 w-fit bg-dark-blue">
-          <SiSupabase size={30} />
+          {/* <SiSupabase size={30} /> */}
           <p>Supabase</p>
         </div>{" "}
         <div className="flex items-center space-x-1 p-2 w-fit bg-dark-blue">
-          <FaBootstrap size={30} />
+          {/* <FaBootstrap size={30} /> */}
           <p>Bootstrap</p>
         </div>{" "}
         <div className="flex items-center space-x-1 p-2 w-fit bg-dark-blue">
-          <DiSqllite size={30} />
+          {/* <DiSqllite size={30} /> */}
           <p>SQL</p>
         </div>
         <div className="flex items-center space-x-1 p-2 w-fit bg-dark-blue">
-          <FaFigma size={30} />
+          {/* <FaFigma size={30} /> */}
           <p>Figma</p>
         </div>
       </div>
