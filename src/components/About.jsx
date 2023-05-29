@@ -14,7 +14,7 @@ const About = () => {
         experiences that leave a lasting impression.
       </p>
       <p className="text-light-gray text-xl font-bold py-4">Technologies I work with: </p>
-      <div className="text-white grid grid-cols-4 gap-4 lg:gap-5 lg:grid-cols-4">
+      <div className="text-white grid grid-cols-3 gap-4 lg:gap-5 lg:grid-cols-4">
         <div className="flex items-center space-x-1 p-2 w-fit bg-dark-blue">
           {/* <AiFillHtml5 size={30} /> */}
           <p>HTML</p>
