@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import { BsFillEyeFill, BsCodeSlash } from "react-icons/Bs";
+// import { BsFillEyeFill, BsCodeSlash } from "react-icons/Bs";
 import { motion } from "framer-motion";
 
 const ProjectItem = ({
@@ -24,13 +24,13 @@ const ProjectItem = ({
           <p className="lg:text-md text-sm text-center">{description}</p>
           <div className="flex flex-row space-x-1 lg:space-x-3">
             <div className="flex flex-row space-x-1 items-center py-2 cursor-pointer text-white hover:text-blue-400 duration-300">
-              <BsFillEyeFill size={15} />
+              {/* <BsFillEyeFill size={15} /> */}
               <a href={link} className="text-sm">
                 Visit
               </a>
             </div>
             <div className="flex flex-row space-x-1 items-center py-2 cursor-pointer text-white  hover:text-blue-400 duration-300">
-              <BsCodeSlash size={15} />
+              {/* <BsCodeSlash size={15} /> */}
               <a href={codeLink} className="text-sm">
                 Code
               </a>

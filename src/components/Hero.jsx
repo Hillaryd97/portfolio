@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import Header from "./Header";
-import { AiOutlineDownload } from "react-icons/ai";
+// import { AiOutlineDownload } from "react-icons/ai";
 // import { FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Hero = () => {
@@ -40,7 +40,7 @@ const Hero = () => {
               {" "}
               Download CV
             </a>
-            <AiOutlineDownload size={22} />
+            {/* <AiOutlineDownload size={22} /> */}
           </motion.div>
         </motion.div>
         <motion.div
