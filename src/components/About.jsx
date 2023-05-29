@@ -2,7 +2,6 @@ import { AiFillHtml5 } from "react-icons/ai";
 import { FaReact, FaBootstrap, FaFigma } from "react-icons/fa";
 import { DiCss3, DiJavascript1, DiSqllite } from "react-icons/di";
 import { SiPhp, SiSupabase, SiTailwindcss } from "react-icons/si";
-import { BsGithub } from "react-icons/Bs";
 
 const About = () => {
   return (
@@ -55,10 +54,6 @@ const About = () => {
         <div className="flex items-center space-x-1 p-2 w-fit bg-dark-blue">
           <FaFigma size={30} />
           <p>Figma</p>
-        </div>
-        <div className="flex items-center space-x-1 p-2 w-fit bg-dark-blue">
-          <BsGithub size={30} />
-          <p>GitHub</p>
         </div>
       </div>
     </div>
