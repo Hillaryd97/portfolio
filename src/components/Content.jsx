@@ -6,9 +6,9 @@ import Projects from "./Projects";
 const Content = () => {
   return (
     <motion.div
-      initial={{ x: "150px" }}
-      animate={{ x: "0px" }}
-      transition={{ type: "spring", stiffness: 100, duration: 3 }}
+      initial={{ opacity: 0, x: -150 }}
+      animate={{ opacity: 1, x: 0 }}
+      transition={{ type: "spring", stiffness: 100, duration: 0.5 }}
       className="lg:px-6 pb-4"
     >
       <Projects />
