@@ -12,7 +12,7 @@ const Projects = () => {
       </h2>
       <ProjectItem
         preview={rubyPastries}
-        projectName={"Ruby Pastries"}
+        projectName={"Ruby Pastries "}
         techStack={"REACT + TAILWINDCSS + SANITY + SUPABASE"}
         description={
           "A dynamic e-commerce website for Ruby Pastries, enabling customers to browse bakery products, place orders, and receive instant confirmations. Utilized Tailwind CSS for a modern and user-friendly interface."
