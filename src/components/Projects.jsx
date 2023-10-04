@@ -1,6 +1,6 @@
 import ProjectItem from "./ProjectItem";
 import rev320 from "./assets/rev320.png";
-import todo from "./assets/todo.png";
+import tasteTreasure from "./assets/Taste-Treasure.png";
 import quiz from "./assets/quiz.png";
 import rubyPastries from "./assets/Ruby-Pastries.png";
 
@@ -10,6 +10,16 @@ const Projects = () => {
       <h2 className="text-light-gray text-xl font-bold py-4 text-left">
         PROJECTS
       </h2>
+      <ProjectItem
+        preview={tasteTreasure}
+        projectName={"Taste Treasure"}
+        techStack={"REACT + TAILWINDCSS + SUPABASE"}
+        description={
+          "TasteTreasure is a vibrant online culinary community where food lovers unite to explore a world of mouthwatering recipes. With a passion for cooking and a love for great flavors, TasteTreasure invites users to share, discover, and savor a diverse array of recipes from around the globe."
+        }
+        link={"https://taste-treasure.vercel.app/"}
+        codeLink={"https://github.com/Hillaryd97/taste-teasure"}
+      />
       <ProjectItem
         preview={rubyPastries}
         projectName={"Ruby Pastries "}
@@ -30,6 +40,7 @@ const Projects = () => {
         link={"https://rev360-cakes.vercel.app/"}
         codeLink={"https://github.com/Hillaryd97/rev360-cakes"}
       />
+
       {/* <ProjectItem
         preview={todo}
         projectName={"Todo List"}
@@ -40,14 +51,14 @@ const Projects = () => {
         link={"http://todo-list-eta-one.vercel.app/"}
         codeLink={"https://github.com/Hillaryd97/todo-list"}
       /> */}
-      <ProjectItem
+      {/* <ProjectItem
         preview={quiz}
         projectName={"Quizlly"}
         techStack={"HTML + TAILWINDCSS + JAVASCRIPT"}
         description={"A quiz application powered by TriviaDB API."}
         link={"https://quiz-app-hillaryd97.vercel.app/"}
         codeLink={"https://github.com/Hillaryd97/quiz-app"}
-      />
+      /> */}
       {/* <ProjectItem
         projectName={"Rev 3:20c"}
         techStack={"REACT + TAILWINDCSS + FRAMER MOTION"}

@@ -12,7 +12,7 @@ const ProjectItem = ({
 }) => {
   return (
     <motion.div
-      className="group relative flex flex-col space-y-2 mb-4 bg-dark-blue text-white text-left p-1"
+      className="group relative flex flex-col space-4-2 mb-4 bg-dark-blue text-white text-left p-1"
       whileHover={{ scale: 1.02 }}
       whileTap={{ scale: 0.9 }}
       transition={{ type: "spring", stiffness: 400, damping: 17 }}
