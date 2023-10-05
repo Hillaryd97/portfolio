@@ -15,7 +15,7 @@ const Projects = () => {
         projectName={"Taste Treasure"}
         techStack={"REACT + TAILWINDCSS + SUPABASE"}
         description={
-          "TasteTreasure is a vibrant online culinary community where food lovers unite to explore a world of mouthwatering recipes. With a passion for cooking and a love for great flavors, TasteTreasure invites users to share, discover, and savor a diverse array of recipes from around the globe."
+          "TasteTreasure is a vibrant online culinary community where food lovers unite to explore a world of mouthwatering recipes."
         }
         link={"https://taste-treasure.vercel.app/"}
         codeLink={"https://github.com/Hillaryd97/taste-teasure"}
@@ -25,7 +25,7 @@ const Projects = () => {
         projectName={"Ruby Pastries "}
         techStack={"REACT + TAILWINDCSS + SANITY + SUPABASE"}
         description={
-          "A dynamic e-commerce website for Ruby Pastries, enabling customers to browse bakery products, place orders, and receive instant confirmations. Utilized Tailwind CSS for a modern and user-friendly interface."
+          "A dynamic e-commerce website for Ruby Pastries, enabling customers to browse bakery products and place orders."
         }
         link={"https://ruby-pastries.vercel.app/"}
         codeLink={"https://github.com/Hillaryd97/ruby-pasteries"}
@@ -35,7 +35,7 @@ const Projects = () => {
         projectName={"Rev 3:20c"}
         techStack={"REACT + TAILWINDCSS + FRAMER MOTION"}
         description={
-          "Designed an intuitive cake ordering website for REV320C, Leveraged modern web technologies, including React.js and responsive design, to enhance the user experience."
+          "Designed a cake ordering website for REV320C."
         }
         link={"https://rev360-cakes.vercel.app/"}
         codeLink={"https://github.com/Hillaryd97/rev360-cakes"}
