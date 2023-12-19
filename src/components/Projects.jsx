@@ -3,6 +3,7 @@ import rev320 from "./assets/rev320.png";
 import tasteTreasure from "./assets/Taste-Treasure.png";
 import quiz from "./assets/quiz.png";
 import rubyPastries from "./assets/Ruby-Pastries.png";
+import otakuWave from "./assets/Otaku-Wave.png";
 
 const Projects = () => {
   return (
@@ -30,12 +31,22 @@ const Projects = () => {
         link={"https://ruby-pastries.vercel.app/"}
         codeLink={"https://github.com/Hillaryd97/ruby-pasteries"}
       />
+        <ProjectItem
+        preview={otakuWave}
+        projectName={"Otaku Wave"}
+        techStack={"NEXTJS + TAILWINDCSS + REDUX + FIREBASE"}
+        description={
+          "A social network for anime lovers...(Still in production)"
+        }
+        // link={"#"}
+        // codeLink={"https://github.com/Hillaryd97/rev360-cakes"}
+      />
       <ProjectItem
         preview={rev320}
         projectName={"Rev 3:20c"}
         techStack={"REACT + TAILWINDCSS + FRAMER MOTION"}
         description={
-          "Designed a cake ordering website for REV320C."
+          "Designed a cake ordering website for REV320C, a small cake buisness"
         }
         link={"https://rev360-cakes.vercel.app/"}
         codeLink={"https://github.com/Hillaryd97/rev360-cakes"}
