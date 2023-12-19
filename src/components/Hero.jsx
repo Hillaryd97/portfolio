@@ -36,7 +36,7 @@ const Hero = () => {
             transition={{ type: "tween", duration: 0.3, ease: "easeOut" }}
             className="flex items-center space-x-1 py-2 hover:outline hover:outline-1 hover:outline-blue-500 hover:bg-dark-purple px-3 rounded-sm text-light-gray w-fit cursor-pointer bg-blue-500 outline-none duration-300"
           >
-            <a href="" className="text-xl text-white ">
+            <a href="https://docs.google.com/document/d/1VDwWldRp3m4c1NI1g4lVJ8419eh3aw43fVjY-PAw8_M/edit" className="text-xl text-white ">
               {" "}
               Download CV
             </a>
