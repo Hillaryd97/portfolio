@@ -38,8 +38,8 @@ const Projects = () => {
         description={
           "A social network for anime lovers...(Still in production)"
         }
-        // link={"#"}
-        // codeLink={"https://github.com/Hillaryd97/rev360-cakes"}
+        link={"http://otaku-wave.vercel.app"}
+        codeLink={"https://github.com/Hillaryd97/otaku_wave"}
       />
       <ProjectItem
         preview={rev320}
