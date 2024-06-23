@@ -6,7 +6,6 @@ import { motion } from "framer-motion";
 
 const Contact = () => {
   const form = useRef();
-  const [isMessageSent, setIsMessageSent] = useState(false);
   const [buttonText, setButtonText] = useState("Send Message");
 
   const sendEmail = (e) => {
@@ -24,8 +23,8 @@ const Contact = () => {
           console.log(result.text);
           setButtonText("Sent"); // Change button text to "Sent"
           setTimeout(() => {
-            setButtonText("Send Message"); // Reset button text after a few seconds
-          }, 3000); // Change the duration as needed (3 seconds in this example)
+            setButtonText("Send Message"); // Reset button text after 3 seconds
+          }, 3000);
         },
         (error) => {
           console.log(error.text);
@@ -42,22 +41,28 @@ const Contact = () => {
         Have a job for me? Reach me through any of the mediums below!
       </p>
       <div className="lg:grid lg:grid-cols-4 flex flex-col-reverse">
-        <div className="flex lg:flex-col items-center  justify-evenly  py-3">
+        <div className="flex lg:flex-col items-center justify-evenly py-3">
           <a
             href="https://twitter.com/hik_ari_"
             className="hover:text-blue-600 duration-300"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <FaTwitter size={30} />
           </a>
           <a
             href="https://github.com/Hillaryd97"
             className="hover:text-blue-600 duration-300"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <FaGithub size={30} />
           </a>
           <a
             href="https://www.linkedin.com/in/simidickson"
             className="hover:text-blue-600 duration-300"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <FaLinkedin size={30} />
           </a>
@@ -103,12 +108,6 @@ const Contact = () => {
           >
             {buttonText}
           </motion.button>
-
-          {/* {isMessageSent && (
-            <div className="text-center font-bold text-green-500">
-              Message Sent!
-            </div>
-          )} */}
         </form>
       </div>
     </div>
