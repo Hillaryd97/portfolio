@@ -1,0 +1,11 @@
+# Allow all robots to access everything
+User-agent: *
+Disallow:
+
+# Block sensitive paths
+Disallow: /admin/
+Disallow: /login/
+Disallow: /settings/
+
+# Sitemap
+Sitemap: https://www.simidickson.com/sitemap.xml
