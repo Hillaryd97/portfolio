@@ -14,7 +14,7 @@ const About = () => {
       {/* <p className="text-white">
         My name is Hillary Dickson. I have a keen eye for design and a love for
         problem-solving, striving to create impactful experiences that leave a
-        lasting impression.
+        lasting impression.dd
       </p> */}
       <h3 className="text-light-gray text-xl font-bold py-4">
         Technologies I Work With:

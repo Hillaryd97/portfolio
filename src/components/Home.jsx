@@ -9,7 +9,7 @@ const Home = () => {
         <title>Simi Dickson - Frontend Developer</title>
         <meta
           name="description"
-          content="Frontend developer specializing in Mobile and Web development. Also offering freelance services."
+          content="Frontend developer specializing in Mobile and Web development. Offering freelance services."
         />
       </Helmet>
       <div>

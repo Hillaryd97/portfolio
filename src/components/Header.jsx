@@ -28,7 +28,7 @@ const Header = () => {
         </div>
       </div>
       {/* Mobile Navigation Bar */}
-      {/* 
+      {/* qew
       <div className={`lg:hidden ${menuOpen ? "block" : "hidden"}`}>
         <div className="px-2 pb-4 flex flex-col justify-center items-center space-y-2">
           <a href="#projects"

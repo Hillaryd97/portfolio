@@ -47,6 +47,7 @@ const ProjectItem = ({
             {techStack}
           </p>
         </div>
+        
       </div>
     </motion.div>
   );

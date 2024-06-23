@@ -38,7 +38,7 @@ const Contact = () => {
     <div id="contact" className="text-left text-white mb-8">
       <h2 className="text-light-gray text-xl font-bold py-4">CONTACT ME!</h2>
       <p className="pb-3">
-        Have a job for me? Reach me through any of the mediums below!
+        Have a job for me? Reach me through any of the mediums below!!
       </p>
       <div className="lg:grid lg:grid-cols-4 flex flex-col-reverse">
         <div className="flex lg:flex-col items-center justify-evenly py-3">

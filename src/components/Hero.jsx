@@ -31,7 +31,7 @@ const Hero = () => {
           }}
         >
           <p className="lg:mr-24 text-xl pb-6">
-            I am a <span className="text-blue-500">Frontend Developer</span>{" "}
+            I am a <span className="text-blue-500">Frontend Developer</span>
             with experience building websites. I specialize in frontend
             technologies such as React and TailwindCSS.
           </p>

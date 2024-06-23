@@ -60,6 +60,7 @@ const Projects = () => {
 
   return (
     <section id="projects" className="projects-section">
+      
       <Helmet>
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
