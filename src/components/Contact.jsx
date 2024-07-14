@@ -35,12 +35,12 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact" className="text-left text-white mb-8">
-      <h2 className="text-light-gray text-xl font-bold py-4">CONTACT ME!</h2>
-      <p className="pb-3">
+    <div id="contact" className=" text-white mb-8">
+      <h2 className="text-light-gray text-xl font-bold lg:py-4">CONTACT ME!</h2>
+      <p className="pb-3 pt-2">
         Have a job for me? Reach me through any of the mediums below!!
       </p>
-      <div className="lg:grid lg:grid-cols-4 flex flex-col-reverse">
+      <div className="lg:grid lg:grid-cols-3 flex flex-col-reverse ">
         <div className="flex lg:flex-col items-center justify-evenly py-3">
           <a
             href="https://twitter.com/hik_ari_"
@@ -76,7 +76,7 @@ const Contact = () => {
         <form
           ref={form}
           onSubmit={sendEmail}
-          className="col-span-3 flex flex-col space-y-2 py-4"
+          className="lg:col-span-2 flex flex-col space-y-2 py-4 lg:w-4/5"
         >
           <input
             className="px-2 py-1.5 bg-dark-purple outline outline-1 rounded-sm outline-blue-500 text-white"
