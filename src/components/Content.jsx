@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import About from "./About";
 import Contact from "./Contact";
 import Projects from "./Projects";
+import Services from "./Services";
 
 const Content = () => {
   return (
@@ -13,6 +14,7 @@ const Content = () => {
     >
       <Projects />
       <About />
+      <Services />
       <Contact />
     </motion.div>
   );
