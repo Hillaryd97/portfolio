@@ -115,9 +115,9 @@ const Hero = () => {
                   startOffset="50%"
                   textAnchor="middle"
                 >
-                  Mobile Developer &nbsp; ············· Freelancer &nbsp; ···················
+                  Mobile Developer &nbsp; ············· Freelancer &nbsp; ················
                   &nbsp; Web Developer &nbsp;
-                  ··················· &nbsp;
+                  ················· &nbsp;
                 </textPath>
               </text>
             </svg>
