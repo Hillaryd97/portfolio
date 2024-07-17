@@ -33,7 +33,7 @@ const Hero = () => {
             }}
           >
             <p className="lg:mr-28 text-xl pb-6">
-              I am a <span className="text-blue-500">Software Developer</span> with over 2 years experience in mobile and app development.
+              I am a <span className="text-blue-500">Software Developer</span> with over 2 years experience in mobile and web development.
             </p>
             <motion.div
               whileHover={{ scale: 1.02 }}
